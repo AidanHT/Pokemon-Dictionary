@@ -14,7 +14,7 @@ app.use(express.json());
 const db = mysql.createPool({
     host: 'localhost',
     user: 'root',
-    password: 'Lanthanum570#',
+    password: 'PASSWORD',
     database: 'pokemon',
     waitForConnections: true,
     connectionLimit: 10,
